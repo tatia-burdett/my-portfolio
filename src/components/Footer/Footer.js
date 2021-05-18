@@ -9,9 +9,11 @@ class Footer extends React.Component {
   render() {
     return (
       <div className='footer'>
-        <p>Created by: Tatia Burdett</p>
-        <FontAwesomeIcon icon={faGithub} className='footer-icon'/>
-        <FontAwesomeIcon icon={faLinkedinIn} className='footer-icon'/>
+        <p>&#169; Tatia Burdett</p>
+        <div>
+          <FontAwesomeIcon icon={faGithub} className='footer-icon'/>
+          <FontAwesomeIcon icon={faLinkedinIn} className='footer-icon'/>
+        </div>
       </div>
     )
   }
