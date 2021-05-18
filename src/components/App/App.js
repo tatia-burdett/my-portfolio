@@ -23,7 +23,7 @@ function App() {
         <About />
         <Contact />
       </main>
-      <footer>
+      <footer className='app-footer'>
         <Footer />
       </footer>
     </div>
