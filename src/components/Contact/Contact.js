@@ -3,7 +3,9 @@ import React from 'react'
 class Contact extends React.Component {
   render() {
     return (
-      <div>Contact</div>
+      <section className='contact'>
+        <h3>Contact Me</h3>
+      </section>
     )
   }
 }
