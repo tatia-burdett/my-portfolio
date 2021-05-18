@@ -3,7 +3,7 @@ import React from 'react'
 class Contact extends React.Component {
   render() {
     return (
-      <section className='contact'>
+      <section className='contact' id='contact'>
         <h3>Contact</h3>
         <div className='contact-section'>
           <form action="https://formspree.io/f/xzbkaken " method="POST">

@@ -6,7 +6,7 @@ import './Skills.css'
 class Skills extends React.Component {
   render() {
     return (
-      <section className='skills'>
+      <section className='skills' id='skills'>
         <h3>Skills</h3>
         <div className='skills-container'>
           <FontAwesomeIcon icon={faHtml5} className='skill-icon'/>
