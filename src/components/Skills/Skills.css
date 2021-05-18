@@ -1,0 +1,15 @@
+.skills { 
+  padding: 15px;
+}
+
+.skills-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.skill-icon {
+  padding: 5px;
+  font-size: 50px;
+}
