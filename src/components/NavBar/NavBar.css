@@ -1,0 +1,17 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-links {
+  list-style-type: none;
+  display: flex;
+}
+
+.navbar-links li {
+  padding-right: 10px;
+}
+
+.navbar-links li:last-child {
+  padding-right: 0;
+}

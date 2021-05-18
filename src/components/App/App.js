@@ -1,4 +1,5 @@
 import React from 'react';
+import './App.css'
 
 import NavBar from '../NavBar/NavBar'
 import FullScreen from '../FullScreen/FullScreen'
@@ -15,7 +16,7 @@ function App() {
       <nav>
         <NavBar />
       </nav>
-      <main>
+      <main className='main'>
         <FullScreen />
         <Skills />
         <Projects />
