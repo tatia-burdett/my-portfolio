@@ -1,4 +1,5 @@
 import React from 'react'
+import './FullScreen.css'
 
 class FullScreen extends React.Component {
   render() {
