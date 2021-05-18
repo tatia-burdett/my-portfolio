@@ -10,7 +10,7 @@ class Project extends React.Component {
       <div className='project'>
         {project.map(p => 
           <div className='single-project' key={p.id || ''}>
-            <h4 className='project-title rainbow'>{p.title}</h4>
+            <h4 className='project-title'>{p.title}</h4>
             <ul className='project-links'>
               <li>{p.github}</li>
               <li>{p.githubAPI}</li>

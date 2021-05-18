@@ -1,11 +1,12 @@
 import React from 'react'
 import './NavBar.css'
 
+
 class NavBar extends React.Component {
   render() {
     return (
       <div className='navbar'>
-        <p>Logo</p>
+        <a href='#/' className='rainbow'>{'<TB/>'}</a>
         <ul className='navbar-links'>
           <li><a href='#skills'>Skills</a></li>
           <li><a href='#projects'>Projects</a></li>
