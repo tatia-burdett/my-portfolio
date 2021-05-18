@@ -1,10 +1,26 @@
 import React from 'react'
+import DATA from '../Data/Data'
+import './Project.css'
 
 class Project extends React.Component {
   render() {
+    const project = DATA
+
     return (
       <div className='project'>
-        <h4>Single Project</h4>
+        {project.map(p => 
+          <div className='single-project' key={p.id || ''}>
+            <h4>{p.title}</h4>
+            <ul>
+              <li>{p.github}</li>
+              <li>{p.githubAPI}</li>
+              <li>{p.liveLink}</li>
+            </ul>
+            <p>{p.description}</p>
+            {p.img1}
+            {p.img2}
+          </div>
+        )}
       </div>
     )
   }

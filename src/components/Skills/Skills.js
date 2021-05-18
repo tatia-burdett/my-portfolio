@@ -3,8 +3,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHtml5, faCss3, faJs, faReact, faNodeJs, faGitSquare } from '@fortawesome/free-brands-svg-icons'
 import './Skills.css'
 
-{/* <i class="fab fa-git-square"></i> */}
-
 class Skills extends React.Component {
   render() {
     return (
