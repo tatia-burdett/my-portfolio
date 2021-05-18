@@ -4,6 +4,7 @@ class Skills extends React.Component {
   render() {
     return (
       <section className='skills'>
+        <h3>Skills</h3>
         <p>HTML</p>
         <p>CSS</p>
         <p>JavaScript</p>
