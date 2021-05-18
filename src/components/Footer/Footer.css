@@ -8,12 +8,9 @@
 .footer-icon {
   font-size: 30px;
   padding-right: 20px;
+  color: #3699AC;
 }
 
 .footer-icon:last-child {
   padding-right: 0;
-}
-
-p, a, button {
-  font-size: 20px;
 }
