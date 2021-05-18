@@ -12,13 +12,19 @@ import Footer from '../Footer/Footer'
 function App() {
   return (
     <div className='App'>
-      <NavBar />
-      <FullScreen />
-      <Skills />
-      <Projects />
-      <About />
-      <Contact />
-      <Footer />
+      <nav>
+        <NavBar />
+      </nav>
+      <main>
+        <FullScreen />
+        <Skills />
+        <Projects />
+        <About />
+        <Contact />
+      </main>
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 }

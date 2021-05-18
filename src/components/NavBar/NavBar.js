@@ -3,7 +3,7 @@ import React from 'react'
 class NavBar extends React.Component {
   render() {
     return (
-      <nav className='navbar'>
+      <div className='navbar'>
         <p>Logo</p>
         <ul>
           <li>Skills</li>
@@ -11,7 +11,7 @@ class NavBar extends React.Component {
           <li>About</li>
           <li>Contact</li>
         </ul>
-      </nav>
+      </div>
     )
   }
 }
