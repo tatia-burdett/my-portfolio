@@ -5,7 +5,7 @@ class FullScreen extends React.Component {
   render() {
     return (
       <header className='fullscreen'>
-        <h1>Tatia Burdett</h1>
+        <h1 className='rainbow'>Tatia Burdett</h1>
         <h2>Full Stack Web Developer</h2>
       </header>
     )

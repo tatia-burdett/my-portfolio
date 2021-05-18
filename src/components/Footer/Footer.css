@@ -5,6 +5,10 @@
   align-items: center;
 }
 
+.footer p {
+  color: #3699AC;
+}
+
 .footer-icon {
   font-size: 30px;
   padding-right: 20px;
