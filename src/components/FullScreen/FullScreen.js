@@ -3,7 +3,10 @@ import React from 'react'
 class FullScreen extends React.Component {
   render() {
     return (
-      <main></main>
+      <header className='fullscreen'>
+        <h1>Tatia Burdett</h1>
+        <h2>Full Stack Web Developer</h2>
+      </header>
     )
   }
 }
