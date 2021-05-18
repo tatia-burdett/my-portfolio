@@ -3,8 +3,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
 import './Footer.css'
 
-{/* <i class="fab fa-linkedin-in"></i> */}
-
 class Footer extends React.Component {
   render() {
     return (
