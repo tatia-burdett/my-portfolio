@@ -1,3 +1,9 @@
-.main {
+.app-nav {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.app-main {
   padding: 15px;
 }
+

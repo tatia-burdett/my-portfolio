@@ -13,10 +13,10 @@ import Footer from '../Footer/Footer'
 function App() {
   return (
     <div className='App'>
-      <nav>
+      <nav className='app-nav'>
         <NavBar />
       </nav>
-      <main className='main'>
+      <main className='app-main'>
         <FullScreen />
         <Skills />
         <Projects />
