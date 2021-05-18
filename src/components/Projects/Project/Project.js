@@ -11,7 +11,7 @@ class Project extends React.Component {
         {project.map(p => 
           <div className='single-project' key={p.id || ''}>
             <h4>{p.title}</h4>
-            <ul>
+            <ul className='project-links'>
               <li>{p.github}</li>
               <li>{p.githubAPI}</li>
               <li>{p.liveLink}</li>

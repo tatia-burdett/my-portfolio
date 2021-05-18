@@ -1,10 +1,11 @@
 import React from 'react'
+import './Contact.css'
 
 class Contact extends React.Component {
   render() {
     return (
       <section className='contact' id='contact'>
-        <h3>Contact</h3>
+        <h3>Contact Me</h3>
         <div className='contact-section'>
           <form action="https://formspree.io/f/xzbkaken " method="POST">
             <label htmlFor="user-name">Name:</label>
