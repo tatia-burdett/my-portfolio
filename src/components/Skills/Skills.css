@@ -1,3 +1,7 @@
+.skills {
+  padding: 0 15px;
+}
+
 .skills-container {
   display: flex;
   justify-content: space-evenly;
