@@ -23,3 +23,15 @@
   color: #45c5de;
   text-decoration: none;
 }
+
+/* Responsive Desktop */
+
+@media all and (min-width: 700px) {
+  .navbar a {
+    font-size: 24px;
+  }
+
+  .navbar-links li a {
+    font-size: 20px;
+  }
+}
