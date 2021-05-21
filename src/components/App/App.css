@@ -36,7 +36,7 @@ p, h3, h4, label {
 /* Rainbow Effect */
 
 .rainbow {
-  background: linear-gradient(to right, #3699AC, #396B6A , #7B8620, #B9BF04);
+  background: linear-gradient(to right, #45c5de, #396B6A , #7B8620, #B9BF04);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
