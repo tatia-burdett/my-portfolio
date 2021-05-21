@@ -1,3 +1,5 @@
+/* App Sections Styling */
+
 .app-nav {
   padding-left: 15px;
   padding-right: 15px;
@@ -10,6 +12,8 @@
 .app-footer {
   padding: 15px;
 }
+
+/* General Styling */
 
 p, a, button {
   font-size: 20px;
