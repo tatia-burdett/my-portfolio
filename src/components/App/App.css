@@ -4,7 +4,7 @@
 }
 
 .app-main {
-  padding: 15px;
+  /* padding: 15px; */
   padding-top: 0;
 }
 
@@ -14,10 +14,6 @@
 
 p, a, button {
   font-size: 20px;
-}
-
-h2, h1 {
-  color: #B9BF04;
 }
 
 h3 {
