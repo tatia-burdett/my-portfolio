@@ -29,6 +29,8 @@
   font-size: 28px;
 }
 
+/* Desktop Responsive */
+
 @media all and (min-width: 700px) {
   .fullscreen {
     align-items: flex-start;
