@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&family=Montserrat&display=swap');
+
+
 /* App Sections Styling */
 
 .app-nav {
@@ -15,8 +18,17 @@
 
 /* General Styling */
 
+h1, h2, h3, h4 {
+  font-family: 'Electrolize', sans-serif;
+}
+
 p, a, button {
-  font-size: 20px;
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+label {
+  font-family: 'Montserrat', sans-serif;
 }
 
 h3 {
