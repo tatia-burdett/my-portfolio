@@ -6,7 +6,7 @@ class NavBar extends React.Component {
   render() {
     return (
       <div className='navbar'>
-        <a href='#/' className='rainbow'>{'<TB/>'}</a>
+        <a href='#fullscreen' className='rainbow'>{'<TB/>'}</a>
         <ul className='navbar-links'>
           <li><a href='#skills'>Skills</a></li>
           <li><a href='#projects'>Projects</a></li>

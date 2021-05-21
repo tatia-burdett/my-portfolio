@@ -4,8 +4,10 @@
 /* App Sections Styling */
 
 .app-nav {
-  padding-left: 15px;
-  padding-right: 15px;
+  width: 100%;
+  background-color: #000;
+  position: fixed;
+  z-index: 1;
 }
 
 .app-main {
