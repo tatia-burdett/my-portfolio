@@ -13,8 +13,13 @@
   font-size: 30px;
   padding-right: 20px;
   color: #45c5de;
+  cursor: pointer;
 }
 
 .footer-icon:last-child {
   padding-right: 0;
+}
+
+.footer-icon:hover, .footer-icon:focus {
+  color: #7B8620;
 }

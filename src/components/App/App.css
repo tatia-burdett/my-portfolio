@@ -61,7 +61,7 @@ button {
 
 button:hover, button:focus{
   cursor: pointer;
-  background-color: #B9BF04;
+  background-color: #45c5de;
   border-bottom-right-radius: 50px;
   border-top-left-radius: 50px;
   border-bottom-left-radius: 10px;
