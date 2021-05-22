@@ -71,3 +71,12 @@ p, h3, h4, label {
       background-position: 100% 0;
   }
 }
+
+/* Responsive / Desktop */
+
+@media all and (min-width: 700px) {
+  .app-main {
+    width: 75%;
+    margin: 0 auto;
+  }
+}

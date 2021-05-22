@@ -13,8 +13,8 @@
 .fullscreen h1, .fullscreen h2 {
   background-color: rgba(36, 35, 35, 0.7);
   box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-  backdrop-filter: blur( 10.5px );
-  -webkit-backdrop-filter: blur( 10.5px );
+  backdrop-filter: blur( 1px );
+  -webkit-backdrop-filter: blur( 1px );
   border: 1px solid rgba( 255, 255, 255, 0.18 );
   padding: 5px;
   color: #f8f8ff;
@@ -34,7 +34,6 @@
 @media all and (min-width: 700px) {
   .fullscreen {
     align-items: flex-start;
-    padding-left: 5em;
   }
 
   .fullscreen h1 {
