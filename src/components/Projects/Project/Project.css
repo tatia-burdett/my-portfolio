@@ -34,8 +34,14 @@
 /* Responsive / Desktop */
 
 @media all and (min-width: 700px) {
+  .single-project {
+    padding-bottom: 20px;
+    border-bottom: 3px inset rgba(57,107,106,0.5);
+    margin-bottom: 20px;
+  }
+
   .project-links {
-    width: 30%;
+    width: 40%;
     margin: 0 auto;
   }
 
@@ -45,9 +51,5 @@
     grid-template-rows: 1fr;
     grid-column-gap: 10px;
     grid-row-gap: 10px;
-  }
-
-  .proj-image {
-    padding: 10px;
   }
 }

@@ -79,4 +79,26 @@ p, h3, h4, label {
     width: 75%;
     margin: 0 auto;
   }
+
+  h3 {
+    font-size: 34px;
+  }
+
+  h4 {
+    font-size: 28px;
+    text-align: center;
+    width: fit-content;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+
+  .grow {
+    transition: all .2s ease-in-out;
+  }
+
+  .grow:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+  }
 }
