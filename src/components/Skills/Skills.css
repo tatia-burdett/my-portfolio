@@ -35,3 +35,12 @@
   font-size: 50px;
   text-align: center;
 }
+
+/* Responsive / Desktop */
+
+@media all and (min-width: 700px) {
+  .skills-container {
+    width: 75%;
+    margin: 0 auto;
+  }
+}
