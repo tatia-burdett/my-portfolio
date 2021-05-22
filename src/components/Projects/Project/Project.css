@@ -23,6 +23,14 @@
   text-decoration: none;
 }
 
+.project-links li a:hover, .project-links li a:focus {
+  color: #396B6A;
+}
+
+.project-links li a:active {
+  color: #3699AC;
+}
+
 .proj-image {
   width: 100%;
 }

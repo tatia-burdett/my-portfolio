@@ -24,7 +24,7 @@
   text-decoration: none;
 }
 
-.navbar-links li a:hover {
+.navbar-links li a:hover, .navbar-links li a:focus {
   color: #7B8620;
 }
 
