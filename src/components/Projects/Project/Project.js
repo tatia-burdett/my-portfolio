@@ -17,8 +17,10 @@ class Project extends React.Component {
               <li>{p.liveLink}</li>
             </ul>
             <p>{p.description}</p>
-            {p.img1}
-            {p.img2}
+            <div className='image-container'>
+              {p.img1}
+              {p.img2}
+            </div>
           </div>
         )}
       </div>

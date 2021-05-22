@@ -30,3 +30,24 @@
 .single-project p {
   line-height: 1.5;
 }
+
+/* Responsive / Desktop */
+
+@media all and (min-width: 700px) {
+  .project-links {
+    width: 30%;
+    margin: 0 auto;
+  }
+
+  .image-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+  }
+
+  .proj-image {
+    padding: 10px;
+  }
+}
