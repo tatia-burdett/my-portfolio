@@ -20,12 +20,12 @@
 }
 
 .navbar-links li a {
-  color: #45c5de;
+  color: #332E3C;
   text-decoration: none;
 }
 
 .navbar-links li a:hover, .navbar-links li a:focus {
-  color: #7B8620;
+  color: #3587A4;
 }
 
 /* Responsive Desktop */
