@@ -10,7 +10,7 @@ class FullScreen extends React.Component {
           <h1>Tatia Burdett</h1>
           <h2>I am a Full Stack Web Developer</h2>
           <p>Currently open to opportunities throughout the US.</p>
-          <a href='https://drive.google.com/file/d/1xGdbrtnpaXpPFPEieWNSfUfGjhnRkwe9/view?usp=sharing' target='_blank' rel='noreferrer'>Resume</a>
+          <a href='https://drive.google.com/file/d/1xGdbrtnpaXpPFPEieWNSfUfGjhnRkwe9/view?usp=sharing' target='_blank' rel='noreferrer' className='resume'>Resume</a>
         </div>
       </header>
     )
