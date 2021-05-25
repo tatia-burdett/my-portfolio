@@ -1,0 +1,29 @@
+.about {
+  background: url('/src/components/images/stack.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.about-container {
+  width: 80%;
+  margin: 0 auto;
+  background: rgba( 239, 242, 239, 0.70 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 14.5px );
+  -webkit-backdrop-filter: blur( 14.5px );
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  padding: 10px;
+  color: #332E3C;
+}
+
+/* Desktop Responsive */
+@media all and (min-width: 700px) {
+  .about {
+    background-attachment: fixed;
+  }
+
+  .about-container {
+    width: 60%;
+  }
+}

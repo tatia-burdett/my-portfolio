@@ -18,9 +18,9 @@ function App() {
       </nav>
       <main className='app-main'>
         <FullScreen />
+        <About />
         <Skills />
         <Projects />
-        <About />
         <Contact />
       </main>
       <footer className='app-footer'>
