@@ -1,0 +1,31 @@
+.fullscreen {
+  height: 50vh;
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.fullscreen-header {
+  display: flex;
+  flex-direction: column;
+}
+
+.fullscreen-header p, .fullscreen-header h1, .fullscreen-header h2 {
+  margin: 0;
+}
+
+.fullscreen-header p {
+  padding-bottom: 10px;
+}
+
+.fullscreen-header h1 {
+  padding-bottom: 20px;
+}
+
+/* Desktop | Responsive */
+
+@media all and (min-width: 700px) {
+
+}

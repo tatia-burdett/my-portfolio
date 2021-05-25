@@ -5,6 +5,12 @@
   padding: 0 10px;
 }
 
+.logo {
+  color: #332E3C;
+  font-size: 20px;
+  text-decoration: none;
+}
+
 .navbar-links {
   list-style-type: none;
   display: flex;
