@@ -13,11 +13,10 @@
 }
 
 .project-title {
-  font-size: 28px;
   font-weight: 300;
   margin: 0 0 20px 0;
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   border-bottom: 1px solid black;
 }
 
