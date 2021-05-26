@@ -13,9 +13,10 @@ class Project extends React.Component {
             <div className='image-container'>
               {p.img1}
             </div>
-            <h4 className='project-title'>{p.title}</h4>
-            <p>{p.description}</p>{' '}  
-              {p.liveLink}
+            <div className='project-content'>
+              <h4 className='project-title'>{p.title}</h4>
+              <p>{p.description} {' '}  {p.liveLink}</p> 
+            </div>
           </div>
         )}
       </div>

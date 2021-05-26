@@ -19,7 +19,7 @@ const data = [
               </a>,
     img1: <img src={llLanding} alt='' className='proj-image grow'/>,
     img2: <img src={llTimeline} alt='' className='proj-image grow'/>,
-    description: 'LodgeLog is a web app used to store users personal address history. This project was created using React, Express, Node.js and PostgreSQL.'
+    description: 'LodgeLog is a web app used to store users personal address history. This project was created using React, Express, Node.js and PostgreSQL. Authentication was implemented on this project to allow users to security login. User endpoints are protected.'
   },
   {
     id: 2,
