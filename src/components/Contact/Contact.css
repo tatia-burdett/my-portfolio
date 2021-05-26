@@ -1,0 +1,56 @@
+.contact {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.contact-section {
+  padding: 20px;
+}
+
+form label {
+  font-size: 20px;
+}
+
+form input {
+	height: 35px;
+	margin-top: 10px;
+  font-size: 20px;
+}
+
+form input, form textarea {
+	width: 100%;
+  margin-bottom: 20px;
+}
+
+form textarea {
+	height: 160px;
+	margin-top: 10px;
+  font-size: 20px;
+}
+
+button {
+  background-color: #332E3C;
+  width: max-content;
+  padding: 1em 2em;
+  color: #EFF2EF;
+  border: none;
+  transition: all 500ms ease-in-out;
+  font-size: 16px;
+}
+
+button:hover, button:focus {
+  cursor: pointer;
+  background: linear-gradient(90deg, #332E3C, #3587A4);
+  border-bottom-right-radius: 50px;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+/* Desktop Responsive */
+
+@media all and (min-width: 700px) {
+  .contact {
+    width: 50%;
+  }
+}
