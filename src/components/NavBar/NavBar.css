@@ -32,6 +32,7 @@
 
 .navbar-links li a:hover, .navbar-links li a:focus {
   color: #3587A4;
+  text-decoration: underline;
 }
 
 /* Responsive Desktop */
