@@ -39,7 +39,7 @@ const data = [
     img2: <img src={hhPosts} alt='' className='proj-image grow' />,
     description: 'Hello World is a client-side React web app that allows users to view and post comments.',
     bullets: <ul>
-              <li>Build full stack project using JavaScript and React.js, passing data with context and state.</li>
+              <li>Build a full stack project using JavaScript and React.js, passing data with context and state.</li>
               <li>Designed RESTful API using Node.js and Express which performs crud operations GET, POST, PATCH and DELETE.</li>
             </ul>,
     tech: 'HTML5 | CSS | JavaScript | React | Node.js | Express | PostgreSQL | Knex.js | RESTful APIs'
