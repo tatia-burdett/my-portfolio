@@ -16,6 +16,7 @@ class Project extends React.Component {
             <div className='project-content'>
               <h4 className='project-title'>{p.title}</h4>
               <p>{p.description} {' '}  {p.liveLink}</p> 
+              <p className='project-bullets'>{p.bullets}</p>
               <p className='project-tech'>
                 <strong>Tech: </strong>
                 {p.tech}

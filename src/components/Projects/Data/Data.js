@@ -19,7 +19,12 @@ const data = [
               </a>,
     img1: <img src={llLanding} alt='' className='proj-image grow'/>,
     img2: <img src={llTimeline} alt='' className='proj-image grow'/>,
-    description: 'LodgeLog is a web app used to store users personal address history. This project was created using React, Express, Node.js and PostgreSQL. Authentication was implemented on this project to allow users to security login. User endpoints are protected.',
+    description: 'LodgeLog is a web app used to store users personal address history.',
+    bullets: <ul>
+              <li>Implemented a responsive client using JavaScript and React that passes data to components with context and state.</li>
+              <li>Built RESTful API endpoints using Node.js and Express to perform GET, POST, PATCH and DELETE crud operations.</li>
+              <li>Created private enpoints and login feature using authentication with JWT.</li>
+            </ul>,
     tech: 'HTML5 | CSS | JavaScript | React | Node.js | Express | PostgreSQL | Knex.js | RESTful APIs'
   },
   {
@@ -32,7 +37,11 @@ const data = [
               </a>,
     img1: <img src={hhLanding} alt='' className='proj-image grow'/>,
     img2: <img src={hhPosts} alt='' className='proj-image grow' />,
-    description: 'Hello World is a client-side React web app that allows users to view and post comments. This project utilizes a GET and POST endpoint only. A nickname, option location, category and some content are received from the user, and a date is created and formatted using react-moment.',
+    description: 'Hello World is a client-side React web app that allows users to view and post comments.',
+    bullets: <ul>
+              <li>Build full stack project using JavaScript and React.js, passing data with context and state.</li>
+              <li>Designed RESTful API using Node.js and Express which performs crud operations GET, POST, PATCH and DELETE.</li>
+            </ul>,
     tech: 'HTML5 | CSS | JavaScript | React | Node.js | Express | PostgreSQL | Knex.js | RESTful APIs'
   },
   {
@@ -45,7 +54,10 @@ const data = [
               </a>,
     img1: <img src={swCurrent} alt='' className='proj-image grow'/>,
     img2: <img src={swForecast} alt='' className='proj-image grow'/>,
-    description: 'The IP address is retrieved from the user to find their current location. Then the weather API uses the zipcode to gather data on the current weather in that location. Users can search for weather in a different city by zipcode or city name. Finally, a 5 day forecast is offered showing a brief snapshot (temperature and conditions) of these days.',
+    description: 'Utilizes users location based off IP address to get current and 5 day forecast.',
+    bullets: <ul>
+              <li>Built a responsive client with JavaScript and jQuery that integrates the OpenWeatherMap and Ipify - IP Gelocation APIs.</li>
+             </ul>,
     tech: 'HTML5 | CSS | JavaScript | jQuery | RESTful APIs'
   }
 ]
