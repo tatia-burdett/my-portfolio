@@ -24,9 +24,25 @@
   line-height: 1.5;
 }
 
+.project-tech {
+  font-style: italic;
+  font-weight: 300;
+}
+
 .ext-link {
   font-size: 1em;
   cursor: pointer;
+}
+
+.title-link {
+  color: #000;
+  text-decoration: none;
+}
+
+.title-link:hover, .title-link:focus {
+  cursor: pointer;
+  text-decoration: underline;
+  color: #3587A4;
 }
 
 /* Responsive / Desktop */
