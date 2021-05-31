@@ -3,8 +3,7 @@
 See it live [here](https://tatia-portfolio.vercel.app)
 
 > Knowing is not enough; we must apply.
-> Wishing is not enough; we must do.
-- Johann Wolfgang Von Goethe
+> Wishing is not enough; we must do. - Johann Wolfgang Von Goethe
 
 ## About Me
 
@@ -15,4 +14,20 @@ After a few months of independent study, I joined Bloc's Full Stack Flex Bootcam
 
 I am passionate about adventure, pushing my comfort zone, and pursuing creative outlets. When I'm not coding, I'm usually creating music, learning more about photography, doing yoga, or exploring the world.
 
+## Skills
 
+* HTML
+* CSS
+* JavaScript
+* jQuery
+* React
+* Node.js
+* Express
+* Git
+* PostgreSQL
+
+## Solo Projects
+
+* [LodgeLog](https://github.com/tatia-burdett/lodgelog-app)
+* [Hello World Group Journal](https://github.com/tatia-burdett/hello-world-app)
+* [Simply Weather](https://github.com/tatia-burdett/simply-weather)
