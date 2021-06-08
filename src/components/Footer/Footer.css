@@ -23,3 +23,7 @@
 .footer-icon:hover, .footer-icon:focus {
   color: #3587A4;
 }
+
+.social-links {
+  padding: 10px;
+}
