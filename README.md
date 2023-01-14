@@ -2,8 +2,7 @@
 
 See it live [here](https://tatia-portfolio.vercel.app)
 
-> Knowing is not enough; we must apply.
-> Wishing is not enough; we must do. - Johann Wolfgang Von Goethe
+> “If you hear a voice within you say, ‘You cannot paint,’ then by all means paint, and that voice will be silenced.” ―Vincent Van Gogh
 
 ## About Me
 
