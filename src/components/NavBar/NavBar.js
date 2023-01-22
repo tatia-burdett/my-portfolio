@@ -11,14 +11,16 @@ export default function NavBar() {
     <Navbar bg="dark" variant="dark">
       <Container>
         <Nav>
-          <Navbar.Brand>TB</Navbar.Brand>
-          <Nav.Link>About</Nav.Link>
-          <Nav.Link>Skills</Nav.Link>
-          <Nav.Link>Contact</Nav.Link>
+          <Navbar.Brand href='#fullscreen'>TB</Navbar.Brand>
+          <Nav.Link href='#about'>About</Nav.Link>
+          <Nav.Link href='#skills'>Skills</Nav.Link>
+          <Nav.Link href='#contact'>Contact</Nav.Link>
           <NavDropdown title="Projects">
-            <NavDropdown.Item>Test 1</NavDropdown.Item>
-            <NavDropdown.Item>Test 2</NavDropdown.Item>
-            <NavDropdown.Item>Test 3</NavDropdown.Item>
+            <NavDropdown.Item>LodgeLog</NavDropdown.Item>
+            <NavDropdown.Item>Hello World</NavDropdown.Item>
+            <NavDropdown.Item>Simply Weather</NavDropdown.Item>
+            <NavDropdown.Divider />
+            <NavDropdown.Item href='#projects'>Projects</NavDropdown.Item>
           </NavDropdown>
         </Nav>
         <Nav>
