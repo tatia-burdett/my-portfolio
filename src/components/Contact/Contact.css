@@ -28,7 +28,7 @@ form textarea {
   font-size: 20px;
 }
 
-button {
+/* button {
   background-color: #332E3C;
   width: max-content;
   padding: 1em 2em;
@@ -45,7 +45,7 @@ button:hover, button:focus {
   border-top-left-radius: 50px;
   border-bottom-left-radius: 10px;
   border-top-right-radius: 10px;
-}
+} */
 
 /* Desktop Responsive */
 
