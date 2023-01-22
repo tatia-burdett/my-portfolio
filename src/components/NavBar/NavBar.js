@@ -24,7 +24,7 @@ export default function NavBar() {
           </NavDropdown>
         </Nav>
         <Nav>
-          <Nav.Link>Resume</Nav.Link>
+          <Nav.Link href='https://drive.google.com/file/d/12htD1p2ffJE8gloOOUmB2gLbwQ1B3wvP/view?usp=sharing' target='_blank'>Resume</Nav.Link>
         </Nav>
       </Container>
     </Navbar>
