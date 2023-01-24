@@ -6,12 +6,11 @@ COLORS:
 #2B2D42 - Space Cadet (Background)
 #E0FF4F - Arctic Lime (Good for text, buttons, borders -- BRIGHT)
 #799496 - Steel Teal (Faded teal)
-#B88C9E - English Lavendar (Slightly more umph than Tuscany)
-#BF98A0 - Tuscany (Faded purple)
+#EAEFF0 - Off white 
 */
 
 * {
   font-family: 'Cormorant+Garamond', serif;
   background-color: #2B2D42;
-  color: aliceblue;
+  color: #EAEFF0;
 }
