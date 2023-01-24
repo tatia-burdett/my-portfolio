@@ -8,8 +8,8 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 
 export default function NavBar() {
   return (
-    <Navbar className="navbar-color" bg="dark" variant="dark">
-      <Container className="navbar-container">
+    <Navbar variant="dark">
+      <Container>
         <Nav>
           <Navbar.Brand href='#fullscreen'>TB</Navbar.Brand>
           <Nav.Link href='#about'>About</Nav.Link>
