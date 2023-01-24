@@ -1,5 +1,8 @@
 import React from 'react';
 import './App.css'
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 import NavBar from '../NavBar/NavBar'
 import FullScreen from '../FullScreen/FullScreen'
@@ -12,20 +15,21 @@ import Footer from '../Footer/Footer'
 
 function App() {
   return (
-    <div className='App'>
-      <nav className='app-nav'>
-        <NavBar />
-      </nav>
-      <main className='app-main'>
-        <FullScreen />
-        <About />
-        <Skills />
-        <Projects />
-        <Contact />
-      </main>
-      <footer className='app-footer'>
-        <Footer />
-      </footer>
+    <div>
+      <Container fluid>
+        <Row>
+          <Col>
+            <NavBar />
+          </Col>
+        </Row>
+      </Container>
+      <Container>
+        <Row>
+          <Col>
+            <FullScreen />
+          </Col>
+        </Row>
+      </Container>
     </div>
   );
 }

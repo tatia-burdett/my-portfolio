@@ -1,4 +1,4 @@
-.navbar {
+/* .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -33,11 +33,11 @@
 .navbar-links li a:hover, .navbar-links li a:focus {
   color: #3587A4;
   text-decoration: underline;
-}
+} */
 
 /* Responsive Desktop */
 
-@media all and (min-width: 700px) {
+/* @media all and (min-width: 700px) {
   .navbar a {
     font-size: 24px;
   }
@@ -49,4 +49,4 @@
   .navbar-links li a {
     font-size: 20px;
   }
-}
+} */

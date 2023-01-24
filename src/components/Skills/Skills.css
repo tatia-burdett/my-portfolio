@@ -1,4 +1,4 @@
-.skills {
+/* .skills {
   width: 90%;
   margin: 0 auto;
 }
@@ -22,11 +22,11 @@
 .skill-icon {
   font-size: 50px;
   text-align: center;
-}
+} */
 
 /* Desktop Responsive */
-@media all and (min-width: 700px) {
+/* @media all and (min-width: 700px) {
   .skills {
     width: 75%;
   }
-}
+} */

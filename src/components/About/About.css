@@ -1,4 +1,4 @@
-.about {
+/* .about {
   background: url('/src/components/images/stack.jpg');
   background-size: cover;
   background-repeat: no-repeat;
@@ -19,7 +19,7 @@
 }
 
 /* Desktop Responsive */
-@media all and (min-width: 700px) {
+/* @media all and (min-width: 700px) {
   .about {
     background-attachment: fixed;
   }
@@ -27,4 +27,4 @@
   .about-container {
     width: 60%;
   }
-}
+} */
