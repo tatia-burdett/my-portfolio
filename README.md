@@ -13,3 +13,6 @@ Well rounded experience transitioning from a successful humanities profession in
 * [LodgeLog](https://github.com/tatia-burdett/lodgelog-app)
 * [Hello World Group Journal](https://github.com/tatia-burdett/hello-world-app)
 * [Simply Weather](https://github.com/tatia-burdett/simply-weather)
+
+
+** This portfolio is currently being updated... work in progress (1.25.23)
