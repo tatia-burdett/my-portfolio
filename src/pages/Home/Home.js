@@ -1,7 +1,7 @@
 import React from 'react'
-import './FullScreen.css'
+import './Home.css'
 
-export default function FullScreen() {
+export default function Home() {
   return (
     <header className='fullscreen' id='fullscreen'>
       <div className='fullscreen-header'>

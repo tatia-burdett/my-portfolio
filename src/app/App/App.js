@@ -4,11 +4,11 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-import NavBar from '../NavBar/NavBar'
-import FullScreen from '../FullScreen/FullScreen'
-import About from '../About/About'
-import Contact from '../Contact/Contact'
-import Footer from '../Footer/Footer'
+import NavBar from '../../components/NavBar/NavBar'
+import Home from '../../pages/Home/Home'
+import About from '../../components/About/About'
+import Contact from '../../components/Contact/Contact'
+import Footer from '../../components/Footer/Footer'
 
 
 function App() {
@@ -24,7 +24,7 @@ function App() {
       <Container>
         <Row>
           <Col>
-            <FullScreen />
+            <Home />
           </Col>
         </Row>
         <Row>
