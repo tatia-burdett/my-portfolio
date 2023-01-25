@@ -6,9 +6,6 @@ import Col from 'react-bootstrap/Col';
 
 import NavBar from '../../components/NavBar/NavBar'
 import Home from '../../pages/Home/Home'
-import About from '../../components/About/About'
-import Contact from '../../components/Contact/Contact'
-import Footer from '../../components/Footer/Footer'
 
 
 function App() {
@@ -25,11 +22,6 @@ function App() {
         <Row>
           <Col>
             <Home />
-          </Col>
-        </Row>
-        <Row>
-          <Col>
-            <About />
           </Col>
         </Row>
       </Container>
