@@ -4,6 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import Container from 'react-bootstrap/Container';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import { Link } from 'react-router-dom';
 
 
 export default function NavBar() {
@@ -11,10 +12,10 @@ export default function NavBar() {
     <Navbar variant="dark">
       <Container>
         <Nav>
-          <Navbar.Brand href='#fullscreen'>TB</Navbar.Brand>
+          <Navbar.Brand><Link to='/'>TB</Link></Navbar.Brand>
           <Nav.Link href='#about'>About</Nav.Link>
           <Nav.Link href='#skills'>Skills</Nav.Link>
-          <Nav.Link href='#contact'>Contact</Nav.Link>
+          <Nav.Link><Link to='contact'>Contact</Link></Nav.Link>
           <NavDropdown title="Projects">
             <NavDropdown.Item>LodgeLog</NavDropdown.Item>
             <NavDropdown.Item>Hello World</NavDropdown.Item>
