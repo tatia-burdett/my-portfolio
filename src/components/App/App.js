@@ -19,9 +19,9 @@ function App() {
         <Route path="contact" element={<Contact />} />
         <Route path="about" element={<About />} />
         <Route path="projects" element={<Projects />} />
-        <Route path="lodgelog" element={<LodgeLog />} />
-        <Route path="helloworld" element={<HelloWorld />} />
-        <Route path="simplyweather" element={<SimplyWeather />} />
+        <Route path="projects/lodgelog" element={<LodgeLog />} />
+        <Route path="projects/helloworld" element={<HelloWorld />} />
+        <Route path="projects/simplyweather" element={<SimplyWeather />} />
       </Routes>
     </div>
   );

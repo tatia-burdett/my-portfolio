@@ -21,24 +21,22 @@ export default function NavBar() {
             <Nav.Link>Contact</Nav.Link>
           </LinkContainer>
           <NavDropdown title="Projects">
-
-            <LinkContainer to='lodgelog'>
+            <LinkContainer to="projects/lodgelog">
               <NavDropdown.Item>LodgeLog</NavDropdown.Item>
             </LinkContainer>
 
-            <LinkContainer to='helloworld'>
+            <LinkContainer to="projects/helloworld">
               <NavDropdown.Item>Hello World</NavDropdown.Item>
             </LinkContainer>
 
-            <LinkContainer to='simplyweather'>
+            <LinkContainer to="projects/simplyweather">
               <NavDropdown.Item>Simply Weather</NavDropdown.Item>
             </LinkContainer>
-            
+
             <NavDropdown.Divider />
-            <LinkContainer to='projects'>
+            <LinkContainer to="projects">
               <NavDropdown.Item>Projects</NavDropdown.Item>
             </LinkContainer>
-
           </NavDropdown>
         </Nav>
         <Nav>
