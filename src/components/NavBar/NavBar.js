@@ -14,7 +14,6 @@ export default function NavBar() {
         <Nav>
           <Navbar.Brand><Link to='/'>TB</Link></Navbar.Brand>
           <Nav.Link href='#about'>About</Nav.Link>
-          <Nav.Link href='#skills'>Skills</Nav.Link>
           <Nav.Link><Link to='contact'>Contact</Link></Nav.Link>
           <NavDropdown title="Projects">
             <NavDropdown.Item>LodgeLog</NavDropdown.Item>
