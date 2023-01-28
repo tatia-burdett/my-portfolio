@@ -4,34 +4,41 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import NavDropdown from "react-bootstrap/NavDropdown";
-import { LinkContainer } from 'react-router-bootstrap'
+import { LinkContainer } from "react-router-bootstrap";
 
 export default function NavBar() {
   return (
     <Navbar variant="dark">
       <Container>
         <Nav>
-          <LinkContainer to='/'>
-            <Navbar.Brand>
-              TB
-            </Navbar.Brand>
+          <LinkContainer to="/">
+            <Navbar.Brand>TB</Navbar.Brand>
           </LinkContainer>
-          <LinkContainer to='about'>
-            <Nav.Link>
-              About
-            </Nav.Link>
+          <LinkContainer to="about">
+            <Nav.Link>About</Nav.Link>
           </LinkContainer>
-          <LinkContainer to='contact'>
-            <Nav.Link>
-              Contact
-            </Nav.Link>
+          <LinkContainer to="contact">
+            <Nav.Link>Contact</Nav.Link>
           </LinkContainer>
           <NavDropdown title="Projects">
-            <NavDropdown.Item>LodgeLog</NavDropdown.Item>
-            <NavDropdown.Item>Hello World</NavDropdown.Item>
-            <NavDropdown.Item>Simply Weather</NavDropdown.Item>
+
+            <LinkContainer to='lodgelog'>
+              <NavDropdown.Item>LodgeLog</NavDropdown.Item>
+            </LinkContainer>
+
+            <LinkContainer to='helloworld'>
+              <NavDropdown.Item>Hello World</NavDropdown.Item>
+            </LinkContainer>
+
+            <LinkContainer to='simplyweather'>
+              <NavDropdown.Item>Simply Weather</NavDropdown.Item>
+            </LinkContainer>
+            
             <NavDropdown.Divider />
-            <NavDropdown.Item href="#projects">Projects</NavDropdown.Item>
+            <LinkContainer to='projects'>
+              <NavDropdown.Item>Projects</NavDropdown.Item>
+            </LinkContainer>
+
           </NavDropdown>
         </Nav>
         <Nav>
