@@ -8,10 +8,10 @@ export default function Home() {
       <div className='fullscreen-header'>
         <p className='header-p'>Hello, my name is</p>
         <h1>Tatia Burdett</h1>
-        <h2> I am a:
+        <h2>
           <Typewriter
           options={{
-            strings: ['full stack web developer', 'musician', 'photographer'],
+            strings: ['Full Stack Web Developer', 'Musician', 'Photographer', 'Traveler', 'Mother', 'Yoga Lover', 'Philosopher'],
             autoStart: true,
             loop: true,
             deleteSpeed: 10,
