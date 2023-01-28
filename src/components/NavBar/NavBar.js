@@ -4,22 +4,28 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import NavDropdown from "react-bootstrap/NavDropdown";
-import { Link } from "react-router-dom";
+import { LinkContainer } from 'react-router-bootstrap'
 
 export default function NavBar() {
   return (
     <Navbar variant="dark">
       <Container>
         <Nav>
-          <Navbar.Brand>
-            <Link to="/">TB</Link>
-          </Navbar.Brand>
-          <Nav.Link>
-            <Link to='about'>About</Link>
-          </Nav.Link>
-          <Nav.Link>
-            <Link to="contact">Contact</Link>
-          </Nav.Link>
+          <LinkContainer to='/'>
+            <Navbar.Brand>
+              TB
+            </Navbar.Brand>
+          </LinkContainer>
+          <LinkContainer to='about'>
+            <Nav.Link>
+              About
+            </Nav.Link>
+          </LinkContainer>
+          <LinkContainer to='contact'>
+            <Nav.Link>
+              Contact
+            </Nav.Link>
+          </LinkContainer>
           <NavDropdown title="Projects">
             <NavDropdown.Item>LodgeLog</NavDropdown.Item>
             <NavDropdown.Item>Hello World</NavDropdown.Item>
