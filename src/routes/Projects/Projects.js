@@ -7,6 +7,7 @@ import Card from 'react-bootstrap/Card';
 import llImg from '../../images/ll-landing-page.png'
 import hwImg from '../../images/hw-landingheader.png'
 import cwImg from '../../images/current-weather.png'
+import { LinkContainer } from "react-router-bootstrap";
 
 export default function Projects() {
   return (
@@ -20,7 +21,9 @@ export default function Projects() {
             <Card.Body>
               <Card.Title>LodgeLog</Card.Title>
               <Card.Text>Web app where users can log in and save their personal address history.</Card.Text>
-              <Button>View</Button>
+              <LinkContainer to='lodgelog'>
+                <Button>View</Button>
+              </LinkContainer>
             </Card.Body>
           </Card>
         </Col>
@@ -30,7 +33,9 @@ export default function Projects() {
             <Card.Body>
               <Card.Title>Hello World</Card.Title>
               <Card.Text>Anonymous social sharing web app where users post/view comments.</Card.Text>
-              <Button>View</Button>
+              <LinkContainer to='helloworld'>
+                <Button>View</Button>
+              </LinkContainer>
             </Card.Body>
           </Card>
         </Col>
@@ -40,7 +45,9 @@ export default function Projects() {
             <Card.Body>
               <Card.Title>Simply Weather</Card.Title>
               <Card.Text>Weather web app that displays the current and five-day forecast</Card.Text>
-              <Button>View</Button>
+              <LinkContainer to='simplyweather'>
+                <Button>View</Button>
+              </LinkContainer>
             </Card.Body>
           </Card>
         </Col>
