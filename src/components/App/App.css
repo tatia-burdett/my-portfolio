@@ -11,6 +11,9 @@ COLORS:
 
 * {
   font-family: 'Cormorant+Garamond', serif;
-  background-color: #2B2D42;
   color: #EAEFF0;
+}
+
+.app {
+  background-color: #2B2D42;
 }

@@ -14,7 +14,7 @@ import SimplyWeather from "../../routes/Projects/SimplyWeather/SimplyWeather";
 
 function App() {
   return (
-    <Container>
+    <div className='app'>
       {/* <NavBar /> */}
       <Routes>
         <Route path="/" element={<Home />} />
@@ -25,7 +25,7 @@ function App() {
         <Route path="projects/helloworld" element={<HelloWorld />} />
         <Route path="projects/simplyweather" element={<SimplyWeather />} />
       </Routes>
-    </Container>
+    </div>
   );
 }
 
