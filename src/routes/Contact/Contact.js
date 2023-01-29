@@ -1,14 +1,15 @@
 import React from 'react'
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
-import Container from 'react-bootstrap/Container';
+import { Container, Row, Col } from 'react-bootstrap';
 import './Contact.css'
 
 export default function Contact() {
   return (
-    <section className='contact' id='contact'>
-      <h3>Contact Me</h3>
-      <Container className='contact-section'>
+    <Container className='contact' id='contact'>
+      <h1>Contact Me</h1>
+      <hr />
+      <Row className='contact-section'>
         <Form action="https://formspree.io/f/xzbkaken " method="POST">
           <Form.Label>Name:</Form.Label>
           <Form.Control type="text" placeholder="Name" />
@@ -21,7 +22,7 @@ export default function Contact() {
 
           <Button variant='dark' type='submit'>Submit</Button>
         </Form>
-      </Container>
-    </section> 
+      </Row>
+    </Container> 
   )
 }
