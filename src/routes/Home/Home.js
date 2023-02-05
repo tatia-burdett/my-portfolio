@@ -7,19 +7,7 @@ import Tab from "@mui/material/Tab";
 import { ThemeProvider } from "@mui/system";
 import { createTheme } from "@mui/material/styles";
 import { LinkContainer } from "react-router-bootstrap";
-
-
-function LinkTab(props) {
-  return (
-    <Tab
-      component="a"
-      onClick={(event) => {
-        event.preventDefault();
-      }}
-      {...props}
-    />
-  );
-}
+import { Link, useNavigation } from 'react-router-dom';
 
 export default function Home() {
   const [value, setValue] = React.useState("1");
@@ -31,7 +19,7 @@ export default function Home() {
   const theme = createTheme({
     palette: {
       primary: {
-        main: "#EAEFF0",
+        main: "#E0FF4F",
       },
       secondary: {
         main: "#11cb5f",
@@ -87,9 +75,9 @@ export default function Home() {
               textColor="primary"
               orientation="vertical"
             >
-              <LinkContainer to='projects/lodgelog'><LinkTab value="1" label="LodgeLog" /></LinkContainer>
-              <LinkContainer to='projects/helloworld'><LinkTab value="2" label="Hello World" /></LinkContainer>
-              <LinkContainer to='projects/simplyweather'><LinkTab value="3" label="Simply Weather" /></LinkContainer>
+              <Tab value="1" label="LodgeLog" component={Link} to="/projects/lodgelog"/>
+              <Tab value="2" label="Hello World" component={Link} to="/projects/helloworld"/>
+              <Tab value="3" label="Simply Weather" component={Link} to="/projects/simplyweather"/>
             </Tabs>
           </Grid>
         </Container>

@@ -12,6 +12,7 @@ import LodgeLog from "../../routes/Projects/LodgeLog/LodgeLog";
 import HelloWorld from "../../routes/Projects/HelloWorld/HelloWorld";
 import SimplyWeather from "../../routes/Projects/SimplyWeather/SimplyWeather";
 
+// move tabs menu here 
 function App() {
   return (
     <div className='app'>
