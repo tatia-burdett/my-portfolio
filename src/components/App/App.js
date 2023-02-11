@@ -36,6 +36,10 @@ function App() {
       <ThemeProvider theme={theme}>
         <Container>
           <Grid container height="100vh" alignItems="center">
+            <Grid container rowSpacing={1}>
+            <Grid item xs={12}>
+              Home
+            </Grid>
             <Grid item xs={8}>
               <Routes>
                 <Route path="/" element={<Home />} />
@@ -77,6 +81,7 @@ function App() {
                   to="/projects/simplyweather"
                 />
               </Tabs>
+            </Grid>
             </Grid>
           </Grid>
         </Container>
