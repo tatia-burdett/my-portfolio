@@ -34,64 +34,52 @@ function App() {
   return (
     <div className="app">
       <ThemeProvider theme={theme}>
-        <Grid
-          container
-          direction="row"
-          justifyContent="center"
-          alignItems="center"
-          height="100vh"
-        >
-          <Container
-            sx={{
-              borderRight: 1,
-              borderTop: 1,
-              p: 20,
-              display: "flex",
-              flexDirection: "row",
-              justifyContent: "space-between",
-            }}
-          >
-            {/* <NavBar /> */}
-            <Routes>
-              <Route path="/" element={<Home />} />
-              <Route path="contact" element={<Contact />} />
-              <Route path="about" element={<About />} />
-              <Route path="projects" element={<Projects />} />
-              <Route path="projects/lodgelog" element={<LodgeLog />} />
-              <Route path="projects/helloworld" element={<HelloWorld />} />
-              <Route
-                path="projects/simplyweather"
-                element={<SimplyWeather />}
-              />
-            </Routes>
-            <Tabs
-              value={value}
-              onChange={handleChange}
-              aria-label="Test"
-              textColor="primary"
-              orientation="vertical"
-            >
-              <Tab
-                value="1"
-                label="LodgeLog"
-                component={Link}
-                to="/projects/lodgelog"
-              />
-              <Tab
-                value="2"
-                label="Hello World"
-                component={Link}
-                to="/projects/helloworld"
-              />
-              <Tab
-                value="3"
-                label="Simply Weather"
-                component={Link}
-                to="/projects/simplyweather"
-              />
-            </Tabs>
-          </Container>
-        </Grid>
+        <Container>
+          <Grid container height="100vh" alignItems="center">
+            <Grid item xs={8}>
+              <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="contact" element={<Contact />} />
+                <Route path="about" element={<About />} />
+                <Route path="projects" element={<Projects />} />
+                <Route path="projects/lodgelog" element={<LodgeLog />} />
+                <Route path="projects/helloworld" element={<HelloWorld />} />
+                <Route
+                  path="projects/simplyweather"
+                  element={<SimplyWeather />}
+                />
+              </Routes>
+            </Grid>
+            <Grid item xs={4}>
+              <Tabs
+                value={value}
+                onChange={handleChange}
+                aria-label="Test"
+                textColor="primary"
+                orientation="vertical"
+              >
+                <Tab
+                  value="1"
+                  label="LodgeLog"
+                  component={Link}
+                  to="/projects/lodgelog"
+                />
+                <Tab
+                  value="2"
+                  label="Hello World"
+                  component={Link}
+                  to="/projects/helloworld"
+                />
+                <Tab
+                  value="3"
+                  label="Simply Weather"
+                  component={Link}
+                  to="/projects/simplyweather"
+                />
+              </Tabs>
+            </Grid>
+          </Grid>
+        </Container>
       </ThemeProvider>
     </div>
   );
